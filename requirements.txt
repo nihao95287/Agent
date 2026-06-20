@@ -1,0 +1,8 @@
+# 终端命令安全审计与自动修复 Agent —— 依赖清单
+# 双后端 Function Calling / Tool Use:
+#   - openai   : 兼容 OpenAI / DeepSeek / Moonshot(Kimi) / Qwen / 本地 vLLM、Ollama 等
+#   - anthropic: Anthropic Messages API (Claude 系列)
+openai>=1.30.0
+anthropic>=0.40.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0

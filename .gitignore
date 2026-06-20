@@ -1,0 +1,21 @@
+.aider*
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python cache/test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE/local agent settings
+.idea/
+.claude/settings.local.json
